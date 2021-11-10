@@ -43,7 +43,7 @@ required to complete them.
 
 | Name                                                                              | Short Description                                          | Done?           |
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
-| [Bin2Dec](./Projects/1-Beginner/Bin2Dec-App/README.md)                                   | Binary-to-Decimal number converter                         | ✅ |
+| [Bin2Dec](./Projects/1-Beginner/Bin2Dec-App/README.md)                                   | Binary-to-Decimal number converter                         | ✅ [Deploy](https://appideas-bin2dec.vercel.app)|
 | [Border Radius Previewer](./Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | ❌ |
 | [Calculator](./Projects/1-Begineer/Calculator-App.md)                             | Calculator                                                 | ❌ |
 | [Christmas Lights](./Projects/1-Beginner/Christmas-Lights-App.md)                 | Simulate a string of Christmas lights                      | ❌ |
