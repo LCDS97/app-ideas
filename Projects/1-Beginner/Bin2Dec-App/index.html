@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/bin2dec.css">
+
+    <title>Bin2Dec</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <a type="button" class="btn btn-primary btn-sm" href="../index.html">Voltar para home</a>
+
+      <div class="title">
+        <div class="g-col-2">
+          <h2>BIN</h2>
+        </div>
+
+        <div class="g-col-4">
+          <h1>2</h1>
+        </div>
+
+        <div class="g-col-2">
+          <h2>Dec</h2>
+        </div>
+
+      </div>
+
+    <div class="description">
+        <p>A simple converter to Binary to Decimal</p>
+    </div>
+
+    <form>
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Binary Number</label>
+        <input type="text" class="form-control" id="binaryNumber" placeholder="Just one or zero">
+      </div>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label">Decimal Number</label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Waiting for the binary number..." disabled>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-lg" onclick="getValue()">Convert Number</button>
+        <p id="error"></p>
+    
+    </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/bin2dec.js"></script>
+  </body>
+</html>

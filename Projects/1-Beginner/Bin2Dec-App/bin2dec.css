@@ -1,0 +1,37 @@
+.container-fluid{
+    text-align: center;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+.title{
+    right: 50%;
+    position:static;
+    padding-left: 42%;
+}
+
+h1 {
+    font-size: 80px;
+    justify-content: center;
+    float: left;
+
+}
+
+h2 {
+    font-size: 45px;
+    float: left;
+
+}
+
+a{
+    width: 10%;
+    justify-content: center;
+    margin-right: auto;
+}
+
+
