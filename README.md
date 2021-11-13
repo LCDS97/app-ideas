@@ -45,7 +45,7 @@ required to complete them.
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
 | [Bin2Dec](./Projects/1-Beginner/Bin2Dec-App/README.md)                                   | Binary-to-Decimal number converter                         | ✅ [Deploy](https://appideas-bin2dec.vercel.app)|
 | [Border Radius Previewer](./Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | ❌ |
-| [Calculator](./Projects/1-Begineer/Calculator-App.md)                             | Calculator                                                 | ❌ |
+| [Calculator](./Projects/1-Begineer/Calculator/README.md)                             | Calculator                                                 | ❌ |
 | [Christmas Lights](./Projects/1-Beginner/Christmas-Lights-App.md)                 | Simulate a string of Christmas lights                      | ❌ |
 | [Cause Effect App](./Projects/1-Beginner/Cause-Effect-App.md)                     | Click list item to display item details                    | ❌ |
 | [Color Cycle](./Projects/1-Beginner/Color-Cycle-App.md)                           | Cycle a color value through incremental changes            | ❌ |
