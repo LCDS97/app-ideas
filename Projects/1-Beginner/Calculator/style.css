@@ -1,0 +1,143 @@
+:root{
+    --gray: #949493;
+    --orange: #ffa600;
+
+    --green: #09ff00;
+    --dark-green: #076803;
+
+    --red: #ff0000;
+    --dark-red: #770101;
+
+    --black: rgb(41, 41, 41);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5% /* A cada 1rem será considerada 10px */
+ }
+ body {
+    font-size: 1.6rem /* 16 pixels */
+ }
+
+ main.container {
+   width: 100vw;
+   min-height: 100vh;
+   max-width:100%;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 4fr;
+   padding: 15rem;
+ }
+
+section.container-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+section.container-result{
+  display: grid;
+  justify-content: flex-end;
+  background-color: var(--black)
+}
+
+#result{
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px;
+    color: var(--orange);
+    font-size: 25px;
+}
+
+
+
+button#zero {
+    grid-column: span 2;
+}
+
+button#dot{
+    font-size: 30px;
+    text-align: center;
+    background-color: var(--gray);
+}
+
+button#dot:hover{
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+button#clear-all{
+    background-color: var(--gray);
+    border-radius:0;
+}
+button#clear-all:hover{
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+button#clear{
+    background-color: var(--gray);
+}
+
+button#clear:hover{
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+button#negative{
+    background-color:var(--black);
+    color: var(--orange);
+}
+button#negative:hover{
+    background-color:var(--orange);
+    color: var(--black);
+}
+
+
+button#equal{
+    background-color: var(--gray);
+    font-size: 25px;
+}
+
+button#equal:hover{
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+button#plus{
+    background-color: var(--dark-green);
+}
+
+button#plus:hover{
+    background-color: var(--green);
+}
+
+button#minus{
+    background-color: var(--dark-red);
+}
+button#minus:hover{
+    background-color: var(--red);
+}
+
+button#divider{
+    background-color: var(--dark-red);
+}
+
+button#divider:hover{
+    background-color: var(--red);
+}
+
+button#multiplier{
+    background-color: var(--dark-green);
+}
+
+button#multiplier:hover{
+    background-color: var(--green);
+}
+
