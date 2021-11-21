@@ -43,16 +43,22 @@ section.container-buttons {
 
 section.container-result{
   display: grid;
-  justify-content: flex-end;
-  background-color: var(--black)
+  background-color: var(--black);
+  color:white;
+  grid: 1fr / 2fr 1fr;
+/*   grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr; */
 }
 
 #result{
-    align-items: center;
-    justify-content: flex-end;
+    justify-self: flex-end;
     margin: 15px;
     color: var(--orange);
     font-size: 25px;
+}
+
+#calculus{
+    padding:25px;
 }
 
 
